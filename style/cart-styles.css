@@ -1,0 +1,122 @@
+.parentContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.cartsContainer {
+  width: 79%;
+  padding-left: 1%;
+}
+.totalsContainer {
+  position: relative;
+  width: 20%;
+}
+.total {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  margin: 0.5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 95%;
+}
+.total span {
+  margin-left: 10px;
+}
+.total h1, .total h3, .total .subtotal, .total .shipping, .total .tax, .total .grandTotal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 0px;
+}
+.total .grandTotal {
+  margin-bottom: 15px;
+}
+.total span:first-child {
+  width: 70%;
+}
+.total span:last-child {
+  width: 30%;
+  text-align: right;
+}
+.cart {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  margin: 0.5rem 0;
+}
+.emptyCart {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  margin: 0.5rem 0;
+  text-align: center;
+}
+.productImg{
+  display: flex;
+  align-items: center;
+}
+.cartButtons{
+  margin-left: auto;
+  margin-right: 15px;
+}
+.cart img {
+  width: 150px;
+  height: 150px;
+  margin-right: 1rem;
+  object-fit: cover;
+}
+.cart h2 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+.cart p {
+  margin: 0.5rem 0 0;
+  font-size: 1rem;
+  color: #666;
+}
+input[name="removeButton"] {
+  background-color: #cf1a1a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+input[name="removeButton"]:hover {
+  background-color: #9c1313;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+input[name="checkoutButton"] {
+  background-color: #1c8ee6;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 350px;
+  margin: 0 auto;
+}
+input[name="checkoutButton"]:hover {
+  background-color: #1774bd;
+}
+input[type="number"]{
+  width: 50px;
+}
