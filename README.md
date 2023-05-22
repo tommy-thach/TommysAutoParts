@@ -1,5 +1,5 @@
 # TommysAutoParts
-Online auto parts store made with HTML, CSS, Bootstrap, PHP, Apache, MySQL
+Online auto parts store made with HTML, CSS, Bootstrap, PHP, Apache, MySQL for my CSIT337 course
 <br>
 # Features
 * Sleek, minimalistic UI with bootstrap and CSS for easy navigation
